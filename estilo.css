@@ -1,0 +1,110 @@
+*{
+    font-family: Arial;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    height: 50px;
+    background-color: #353535;
+}
+.topInv{
+    width: 1000px;
+    margin: auto;
+    color: white;
+}
+
+.logoMarca{   
+    float: left;
+    font-size: 24px;
+    line-height: 50px;
+}
+.menu{
+    float: right;    
+}
+.menu ul,
+.menu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li{
+    float: left; /*aqui deixa um do lado do outro*/
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    font-size: 14px;
+}
+.menu li:hover{
+    background-color: #3480c1;
+}
+
+.banner{
+    height: 300px;
+    background-color: #347aba;
+}
+.bannerInv{
+    width: 1000px;
+    margin: auto;
+}
+
+.bannerEsq{
+    float: left;
+}
+.bannerDir{
+    float: right;
+}
+.bannerDir img{
+    margin-right: 50px;
+}
+
+.fraseEfeito{
+    margin-top: 60px;
+    font-size: 48px;   
+    color: white;
+}
+.frase2{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.botao{
+    background-color: #ffc001;
+    width: 282px;
+    height: 56px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 56px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.conteudoInt{
+    width: 1000px;
+    margin: auto;
+}
+.outrosProdutos{
+
+    right: 90px;
+    text-align: left;
+    line-height: 90px;
+    font-size: 20px;     
+   
+}
+
+.fotos img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rodaPe{
+    background-color: #347aba;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    margin-top: 40px;
+}
